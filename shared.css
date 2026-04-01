@@ -1,0 +1,22 @@
+/* Shared head template for all Pago Fácil pages */
+/* Include this in every page after tailwind config */
+
+body { font-family: 'Inter', sans-serif; }
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+.kinetic-vault-gradient {
+    background: linear-gradient(135deg, #0A1628 0%, #0052fe 100%);
+}
+.primary-gradient {
+    background: linear-gradient(135deg, #005946 0%, #55fcd0 100%);
+}
+.secondary-gradient {
+    background: linear-gradient(180deg, #003ec6 0%, #0052fe 100%);
+}
+.kinetic-shadow {
+    box-shadow: 0 10px 30px -10px rgba(16, 28, 46, 0.08);
+}
+.shadow-ambient {
+    box-shadow: 0 10px 24px -4px rgba(16, 28, 46, 0.06);
+}
